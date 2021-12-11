@@ -1,0 +1,26 @@
+#Lesson 1
+#database and variable
+#if your want to clear the terminal: windows "cls" , mac "clear"
+#if we want to tell computer to print something for us, we use the code print()
+#We can also define a word representing certain object
+
+
+#Example how to print differnet data
+name = "john"
+print(name)
+
+name = 50
+print(name)
+
+name = True 
+print(name)
+#-------------------------------------------------
+name = "peter"
+age = "87"
+is_male = True 
+
+print(name)
+print("Someone called" + name) #We can also combine together
+print(name + "87 years old")  #Name will be "peter" and plus the variable in the back
+print(name + "hight 187")
+print(name + "hate himself 87 years old")
