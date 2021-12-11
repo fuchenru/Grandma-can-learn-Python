@@ -1,0 +1,33 @@
+#Lesson 2
+#How to use string and examples of strings
+
+
+print("Hello \nMr.White") #\n : new line
+
+print("Hello\" Mr.White") #Connect to each other, remember the " in middle
+
+print("Hello" + "Mr.White") #Also connect to each other
+
+
+
+#We define "Hello" to our phrase
+phrase = "Hello"
+print(phrase + "Mr. White")
+
+#-----------------------------------------------------
+#function
+phrase = "Hello Mr.White"
+print(phrase.lower()) #Lowercase
+print(phrase.upper()) #Uppercase
+print(phrase.isupper()) #Check if all uppercase
+print(phrase.islower()) #Check if all lowercase
+print(phrase.lower().islower()) #Lowercase than check if all lowercase
+
+#In python, every character start counting from 0
+print(phrase[0]) #Will find the first character, H
+
+print(phrase.index("H")) #Will find where is H
+print(phrase.index("e")) #Will find where is e
+
+print(phrase.replace("H","h")) #Replace the H with h
+print(phrase.replace("M","m")) #Replace the M with m
