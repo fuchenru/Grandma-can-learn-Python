@@ -1,0 +1,89 @@
+#Lesson 5
+#List
+
+scores = [90,70,60,50,80]
+friends = ["Ryan","Julian","John"]
+things = [90,"Ryan",True]
+print(scores)
+print(friends)
+print(things)
+print(scores[0])
+print(scores[3])
+print(scores[-1]) #Last 1
+print(scores[-2]) #Last 2
+print(scores[0:2]) #From 0 to 2, not including 2
+print(scores[1:4]) #From 1 to 4, not including 4
+print(scores[1:]) #From 1 to the end
+print(scores[:4]) #From 0 to 4, not including 4
+#----------------------------------------------------------------------
+
+
+phrase = "Hello Mr.White"
+         #0123456789
+print(phrase[0:5]) #From 0-5
+print(phrase[6:])  #From 6 to end
+#----------------------------------------------------------------------
+
+scores = [90,70,60,50,80]
+scores[0] = 30
+print(scores) #Change the 0 number to 30
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+friends = ["Ryan","Julian","John"]
+scores.extend(friends)
+print(scores) #Will extend scores to friends, combine together
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.append(30)
+print(scores) #Add 30 to the end of scores
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.insert(2,30)
+print(scores) #Insert 30 after 2 number
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.remove(90)
+print(scores) #Remove the 90 from the scores
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.clear()
+print(scores) #Clear all the scores
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.pop()
+print(scores) #Remove the last one from list
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.sort()
+print(scores) #Sort the scores from low to high
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+scores.reverse()
+print(scores) #Reverse the whole list sorting
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,50,80]
+print(scores.index(90)) #Find the location of a number
+#----------------------------------------------------------------------
+
+
+scores = [90,70,60,60,80]
+print(scores.count(60)) #Count how many 60 in the list
+print(scores.count(100)) #Will count 0 becasue there is no 100 in the list
