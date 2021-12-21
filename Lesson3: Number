@@ -1,0 +1,43 @@
+#Lesson 3
+#How to use numbers
+print(77)
+print(77.2)
+print(-77.2)
+print(8+5)
+print(8-5)
+print(8*5)
+print(8/5)
+
+print(8//5) #Integar division
+
+print(8+8*5) #Continuous calculus
+
+print((8+8)*5) #Calculate () first
+
+#----------------------------------------------
+number = 8
+print(number*5)  #Equal 8*5
+
+number = 8 
+print(number%5) #Take the remainder 
+
+number = 8 
+print("Will print" + str(number)) #Convert number 8 to string
+
+
+number = -100 
+print(abs(number)) #Abosulate value
+
+
+print(pow(2,4)) #2 power of 4
+
+print(max(2,3,88,100,999,9999)) #Choose the max number
+print(min(999,89,50,30,20,13)) #Chioose the min number
+
+print(round(4.6)) #Round the number
+
+#----------------------------------------------
+from math import *
+print(floor(4.6)) #Unconditionally discard
+print(ceil(5.1)) #Unconditionally round up
+print(sqrt(64)) #Squareroot
