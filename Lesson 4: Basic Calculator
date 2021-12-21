@@ -1,0 +1,22 @@
+#Lesson 4
+#Basic Calculator
+
+number1 = input("Please enter the first number:")
+number2 = input("Please enter the second number:")
+print(number1 + number2)
+#This will become 85.5 Because it identify these two numbers as strings
+#----------------------------------------------------------------------
+
+
+number1 = input("Please enter the first number:")
+number2 = input("Please enter the second number:")
+print(int(number1) + int(number2))
+#Will transform strings to integer, cannot identify decimal point
+#----------------------------------------------------------------------
+
+
+number1 = input("Please enter the first number:")
+number2 = input("Please enter the second number:")
+print(float(number1) + float(number2))
+#Will transform strings that can read decimal points
+#----------------------------------------------------------------------
