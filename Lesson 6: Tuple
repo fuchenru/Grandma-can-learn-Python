@@ -1,0 +1,14 @@
+#Lesson 6
+#Tuple
+
+#Tuple is not like list, it cannot be modified, deleted 
+#Example: 
+#scores = (90,80,60,70,50)
+#scores[0] = 30
+#print(scores) -> Will display error bacause tuple cannot be modified
+#----------------------------------------------------------------------
+
+scores = (90,80,60,70,50)
+print(len(scores))
+#Count how many numbers in the list
+#----------------------------------------------------------------------
