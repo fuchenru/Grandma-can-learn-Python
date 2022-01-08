@@ -1,0 +1,76 @@
+#Lesson 7
+#Function
+
+#Function is a pre coded tool, when we use it then it will run the code
+#Function is helping us sorting the data and analyze, then return the information we want to see
+#We need to definite the function first 
+
+#def hello():
+    #print("hello")
+#hello()
+#----------------------------------------------------------------------
+
+
+def hello(name,age):
+    print("hello" + name + "You are" + age + "years old")
+hello("Peter","87")
+#----------------------------------------------------------------------
+
+
+def add(num1,num2):
+    print(num1+num2)
+add(2,3)
+#----------------------------------------------------------------------
+
+
+def add(num1,num2):
+    return 10
+print(add(2,3))
+#return will cover the function
+#----------------------------------------------------------------------
+
+
+def add(num1,num2):
+    return num1 + num2
+print(add(2,3))
+#----------------------------------------------------------------------
+
+
+#Example
+def add(num1,num2):
+    print(num1+num2)
+    return 10
+value=add(3,4)
+print(value)
+
+#Question: What will show in the terminal?
+#Answer: 7 10
+#Because it will encounter the value function first print 7
+#Then it see the return, so it cover the original number to 10
+#----------------------------------------------------------------------
+
+
+#Example 2
+def add(num1,num2):
+    print(num1+num2)
+
+value=add(3,4)
+print(value)
+
+#Question: Everything else are the same from last one, but we don't put
+#return in our function. What will it display?
+
+#Answer: 7 None
+#If we don't return anything, python will automacally return none to us
+#----------------------------------------------------------------------
+
+
+#Final
+def add(num1,num2):
+    print(num1+num2)
+    return 10
+    print("Hello")
+value=add(3,4)
+print(value)
+#It will not show Hello, Because once the function encountered return
+#Then the function is end
